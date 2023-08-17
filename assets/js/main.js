@@ -118,7 +118,7 @@
 /*------------------------------*/
 
 
-  $(".links-youtube-carousel").owlCarousel({
+  $(".links-propiedades-carousel").owlCarousel({
   
   items : 3, 
    pagination : true,
