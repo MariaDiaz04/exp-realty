@@ -70,7 +70,7 @@
   }
 
   /**
-   * Hero type effect
+   * Section-1 type effect
    */
   const typed = select('.typed')
   if (typed) {
