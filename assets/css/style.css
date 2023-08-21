@@ -283,7 +283,7 @@ h6 {
 #section-1 {
   width: 100%;
   height: 100vh;
-  background: url("../img/banner.jpg") no-repeat;
+  background: url("../img/banner-2.png") no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -292,6 +292,11 @@ h6 {
   #section-1 {
     padding-left: 160px;
   }
+
+  #section-1 .banner{
+    width: 33%;
+  }
+
 }
 
 #section-1:before {
@@ -305,7 +310,7 @@ h6 {
 
 #section-1 h1 {
   margin: 0;
-  font-size: 64px;
+  font-size: 45px;
   font-weight: 700;
   line-height: 56px;
   color: #B8860B;
@@ -343,6 +348,11 @@ h6 {
 @media (max-width: 992px) {
   #section-1 {
     text-align: center;
+  }
+
+  #section-1 .banner{
+    width: 70%;
+    margin-top: 5%;
   }
 
   #section-1 h1 {
