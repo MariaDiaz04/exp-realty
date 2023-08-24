@@ -297,10 +297,11 @@ h6 {
   }
 
   #section-1 .banner{
+    display: absolute;
     width: 33%;
   }
 
-  #section-1 .img-logo{
+  #section-1 .img-logo, .banner-movil{
     display: none;
   }
 
@@ -355,11 +356,17 @@ h6 {
 @media (max-width: 992px) {
   #section-1 {
     text-align: center;
+    padding-top: 30%;
   }
 
   #section-1 .banner{
-    width: 70%;
+    display: none;
+  }
+
+  #section-1 .banner-movil{
+    width: 45%;
     margin-top: 5%;
+    display: absolute;
   }
 
   #section-1 h1 {
@@ -460,6 +467,33 @@ section {
   margin-bottom: 0;
 }
 
+@media (min-width: 992px) {
+  #section-2 .ebook-movil{
+    display: none;
+  }
+  #section-2 .ebook{
+    display: absolute;
+  }
+}
+
+@media (max-width: 992px) {
+  #section-2 .ebook-movil{
+    display: absolute;
+    margin-top: 5%;
+  }
+  #section-2 .ebook{
+    display: none;
+  }
+  .guia{
+    width: 80%;
+  }
+  .indice{
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+}
+
+
 /*-----------------------------------------------------------------*/
 /*  Video
 /*-----------------------------------------------------------------*/
@@ -497,15 +531,15 @@ section {
 }
 
 .testimonials .testimonial-item h3 {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: bold;
   margin: 10px 0 5px 0;
   color: white;
 }
 
 .testimonials .testimonial-item h4 {
-  font-size: 14px;
-  color: #999;
+  font-size: 20px;
+  color: #fbd142;
   margin: 0 0 15px 0;
 }
 
@@ -554,6 +588,22 @@ section {
 @media (min-width: 992px) {
   .testimonials .testimonial-item p {
     width: 80%;
+  }
+}
+
+@media (min-width: 992px) {
+  #section-3 .webinar-personas, .webinar-zoom{
+    width: 80%;
+  }
+}
+
+@media (max-width: 992px) {
+  #section-3 .webinar-personas, .webinar-zoom{
+    width: 80%;
+  }
+  .imagen{
+    text-align: center;
+    margin-bottom: 10%;
   }
 }
 
