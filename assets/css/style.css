@@ -449,7 +449,14 @@ section {
 .section-2 .content ul li {
   margin-bottom: 20px;
   display: flex;
+  font-size: 95%;
   align-items: center;
+  text-align: left;
+}
+
+.section-2 ul li i{
+  font-size:120%; 
+  color: black;
 }
 
 .section-2 .content ul strong {
@@ -457,9 +464,7 @@ section {
 }
 
 .section-2 .content ul i {
-  font-size: 16px;
   margin-right: 5px;
-  color: #fbd142;
   line-height: 0;
 }
 
@@ -595,6 +600,9 @@ section {
   #section-3 .webinar-personas, .webinar-zoom{
     width: 80%;
   }
+  .logo-us{
+    width: 3%;
+  }
 }
 
 @media (max-width: 992px) {
@@ -604,6 +612,9 @@ section {
   .imagen{
     text-align: center;
     margin-bottom: 10%;
+  }
+  .logo-us{
+    width: 8%;
   }
 }
 
@@ -995,12 +1006,9 @@ button[type=submit]:hover {
 }
 
 
-
-
 /*--------------------------------------------------------------
 # Section-6
 --------------------------------------------------------------*/
-
 #section-6 {
   background-color: #f9f8fb;
 }
@@ -1092,6 +1100,44 @@ button[type=submit]:hover {
   background-position: center center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
+}
+
+/*--------------------------------------------------------------
+# Section-8
+--------------------------------------------------------------*/
+#section-8 {
+  background-color:black;
+}
+.texto{
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  font-family: Raleway;
+}
+
+/*--------------------------------------------------------------
+# Valores
+--------------------------------------------------------------*/
+
+.valores .content ul li {
+  margin-bottom: 5px;
+  display: flex;
+  font-size: 15px;
+  align-items: center;
+  text-align: left;
+}
+
+.valores ul li i{
+  font-size:120%; 
+  color: black;
+}
+
+.valores .content ul strong {
+  margin-right: 10px;
+}
+
+.valores .content ul i {
+  line-height: 0;
 }
 
 /*--------------------------------------------------------------
