@@ -29,6 +29,7 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/webinar.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: VXV INVESTMENTS
@@ -48,10 +49,10 @@
     <nav id="navbar" class="navbar nav-menu">
       <ul>
         <li><a href="index.html" class="nav-link scrollto"><i class="bx bx-home"></i> <span>Inicio</span></a></li>
-        <li><a href="about.html" class="nav-link scrollto  active"><i class="bx bx-user"></i> <span>Conócenos</span></a></li>
+        <li><a href="about.html" class="nav-link scrollto "><i class="bx bx-user"></i> <span>Conócenos</span></a></li>
         <li><a href="" class="nav-link scrollto"><i class="bx bxs-buildings"></i> <span>Propiedades</span></a></li>
         <li><a href="blog.html" class="nav-link scrollto"><i class="bx bxl-blogger"></i> <span>Blog</span></a></li>
-        <li><a href="webinar.html" class="nav-link scrollto"><i class="bx bxl-zoom"></i> <span>Webinar</span></a></li>
+        <li><a href="webinar.html" class="nav-link scrollto active"><i class="bx bxl-zoom"></i> <span>Webinar</span></a></li>
       </ul>
     </nav><!-- .nav-menu -->
 
@@ -63,73 +64,68 @@
       <div class="overlay"></div>
       <div class="container">
          <div class="row">
-            <h1 style="color: white !important;">Conócenos</h1>
+            <h1 style="color: white !important;">Webinar</h1>
         </div> <!-- /.row-->
       </div> <!-- /.container-->
     </section>
     <!-- =======End Section 3======= -->
-    <!-- ======= Section  4======= -->
-    <section id="section-2" class="section-2">
-      <div class="container" data-aos="fade-up">
-        <div class="row">
-          <div class="col-lg-4" style="text-align: center;">
-            <img src="assets/img/exp-realty/guia.jpg" class="img-fluid guia" alt="">
-          </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content" >
-            <div class="row" style="text-align: justify;">
-              <div class="col-md-6 pb-4">
-                <h3>Misión</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. </p>
-                <h3>Visión</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. </p>
+    <!-- =======Section 8======= -->
+    <section id="section-8" class="section" style="background-image: url(assets/img/zoom.png);">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-12 col-lg-10">
+            <div class="wrap d-md-flex">
+              <div class="text-wrap p-4 p-lg-5 text-center d-flex align-items-center order-md-last">
+                <div class="text w-100">
+                  <img src="assets/img/zoom-sin-fondo.png" class="img-fluid" style="width: 50%">
+                  <h2>LIVE</h2>
+                  <p>INSCRÍBETE GRATIS Y DISFRUTA DE TODO EL CONTENIDO</p>
+                  <img src="assets/img/reunion.png" class="img-fluid" style="width: 50%">
+
+                </div>
               </div>
-              <div class="col-md-6">
-                <h3>Valores</h3>
-                <ul>
-                  <li><i class="bx bxs-check-circle"></i>Primer Valor de compañía</li>
-                  <li><i class="bx bxs-check-circle"></i>Segundo Valor de compañía</li>
-                  <li><i class="bx bxs-check-circle"></i>Tercer Valor de compañía</li>
-                  <li><i class="bx bxs-check-circle"></i>Cuarto Valor de compañía</li>
-                  <li><i class="bx bxs-check-circle"></i>Quinto Valor de compañía</li>
-                </ul>
+              <div class="login-wrap p-4 p-lg-5">
+                <div class="d-flex">
+                  <div class="w-100">
+                    <h6 class="mb-4">Registro para el webinar</h6>
+                  </div>
+                  <div class="w-100">
+                    <p class="social-media d-flex justify-content-end">
+                      <a href="#" class="social-icon d-flex align-items-center justify-content-center"><span class="bx bxl-facebook"></span></a>
+                      <a href="#" class="social-icon d-flex align-items-center justify-content-center"><span class="bx bxl-youtube"></span></a>
+                    </p>
+                  </div>
+                </div>
+                <form action="#" class="signin-form">
+                  <div class="form-group mb-3">
+                    <label class="label" for="name">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" class="form-control" placeholder="Nombre" required>
+                  </div>
+                  <div class="form-group mb-3">
+                    <label class="label" for="telefono">Teléfono</label>
+                    <div class="d-flex">
+                      <select id="codigo" name="codigo" class="form-control">
+                        <option>+58</option>
+                        <option>+57</option>
+                        <option>+56</option>
+                      </select>
+                      <input type="number" id="telefono" name="telefono" class="form-control" placeholder="Teléfono" required>
+                    </div>
+                    
+                  </div>
+                  <div class="form-group mb-3">
+                    <label class="label" for="name">Correo</label>
+                    <input type="email" id="correo" name="correo" class="form-control" placeholder="Correo" required>
+                  </div>
+                  <div class="form-group">
+                    <button type="submit" class="form-control btn btn-dark submit px-3">Registrar</button>
+                  </div>
+                </form>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- End Section 2 -->
-    <!-- =======Section 8======= -->
-    <section id="section-8" class="section">
-      <div class="overlay"></div>
-      <div class="container">
-         <div class="row">
-            <!-- End Video caption-->
-            <div class="col-md-6">
-              <div class="imagen">
-                <img src="assets/img/exp-realty.png" class="img-fluid webinar-personas">
-              </div>
-            </div> 
-            <div class="col-md-6 texto" style="text-align: center;">
-              <div class="" style="text-align: justify;">
-                <p style="">eXp Realty es la compañía de bienes raíces residencial más GRANDE de los Estados Unidos y de más rápido crecimiento, con más de 40.000 agentes a nivel Global. <br>
-
-                Una empresa que cotiza en la Bolsa y ofrece oportunidades nunca antes vistas a sus agentes de bienes raíces, basando su éxito en la implementación de tecnología de punta aplicada al sector del Real Estate, buscando un solo objetivo: CRECER y Generar Mayores Ingresos. <br>
-
-                Si eres Agente de Bienes Raíces, Latino y estás buscando incrementar tus ingresos, trabajar con agentes de alto nivel en un mismo equipo, tener el mejor entrenamiento de bienes raíces en habla hispana y conocer las herramientas que te permitan generar Leads Nacionales e Internacionales en una compañía que está revolucionando la industria del Real Estate en U.S.A y todo el mundo, entonces te invito a hacer parte de mi equipo. <br>
-
-                Si estás en México, tengo buenas noticias para ti: Ahora mismo estamos abriendo el mercado Mexicano y por tanto, si estás allí, esta también puede ser una maravillosa oportunidad para ti. </p>
-                <div class="text-right pt-4"><a href="https://wa.me/17864199686"><button type="submit"><i class="bx bxl-whatsapp"> Conversemos por whatsapp</i></button></a></div>
-              </div>
-            </div>
-        </div> <!-- /.row-->
-      </div> <!-- /.container-->
     </section>
     <!-- =======End Section 8======= -->
     <!-- ======= Section  9======= -->
